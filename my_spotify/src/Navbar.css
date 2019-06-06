@@ -1,0 +1,11 @@
+.artiste {
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	width: 21%;
+	float: left;
+	margin: 1% 2%;
+	text-align: center;
+}

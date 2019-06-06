@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,700);
+
+body {
+	font-family: 'Work Sans';
+  font-size: 16px;
+  background-color: #282c34;
+}
+.artiste:nth-child(4n+1) {
+	clear: both;
+}
+.show{
+	align-items: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	text-align: center;
+}
+.artiste {
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	width: 21%;
+	float: left;
+	margin: 1% 2%;
+	text-align: center;
+	cursor: pointer;
+
+}
+.artiste a {
+	display: block;
+	color: #FFFF;
+	font-size:22px;
+	text-decoration: none;
+	background: rgba(0, 0, 0, 0.7);
+	letter-spacing: 0;
+	padding: 30px 10px;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.artiste a:hover {
+	letter-spacing: 1px;
+}
+.degauss4 {
+	position: relative;
+	text-shadow: 4px 4px 1px yellow, 4px -4px 1px magenta, -4px 4px 1px cyan;
+}
+h1 {
+	display: inline;
+	font-family: 'Kiona Regular';
+	font-size: 5em;
+	font-weight: 100;
+	color: white;
+	align-items: center;
+	flex-direction: column;
+}
+
+.album {
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	width: 21%;
+	float: left;
+	margin: 1% 2%;
+	text-align: center;
+	cursor: pointer;
+
+}
+.album:nth-child(4n+1) {
+	clear: both;
+}
+.album a {
+	display: block;
+	color: #FFF;
+	min-height: 104px;
+	text-decoration: none;
+	background: rgba(0, 0, 0, 0.7);
+	letter-spacing: 0;
+	padding: 30px 5px;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.album a:hover {
+	letter-spacing: 1px;
+}
+.album p{
+	font-size:15px;
+	color:white
+}
+.presentation{
+	font-size:30px;
+	color:whitesmoke;
+}
+.gender{
+	display: inline-block;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	background-color:#300032;
+	width: 200px;
+	border-radius: 2px;
+	margin: 0px;
+	cursor: pointer;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.gender p{
+	font-size: 25px;
+	color:whitesmoke;
+	text-align: center;
+}
+
+
+
+
+
+
+.card {
+	width: 400px;
+	margin: 0px auto;
+	background-color: white;
+	box-shadow: 0px 5px 20px #555;
+
+}
+.card a {
+	color: #333;
+	text-decoration: none;
+}
+.card-image {
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+}
+.card-image img {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition-property: filter width;
+	transition-duration: .3s;
+}
+.card-body {
+	text-align: center;
+	padding: 15px 20px;
+	box-sizing: border-box;
+}
+.card-date {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.card-title,
+.card-exceprt {
+	font-family: 'Playfair Display', serif;
+}
+.card-date,
+.card-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.card-date,
+.card-exceprt,
+#case-title {
+	color: #777;
+}
+#case-title {
+	position: absolute;
+	font: 18px 'Microsoft YaHei';
+	top:10px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	display:block;
+	text-align:center;
+	text-decoration: none;
+}
+.describ{
+    color: white;
+    text-align: center;
+}
+.description{
+    color: white;
+}
+.descdiv{
+	background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+	margin-left: -13px;
+    margin-right: -13px;
+    padding: 30px;
+}
+.test{
+	width: 500px;
+}
+.test img{
+	width: 100%;
+	background-size:cover;
+}
+.cover{
+	padding-left: 50em;
+}
+.blacktitle{
+	color:black;
+}
+.by{
+	color:darkblue;
+}
